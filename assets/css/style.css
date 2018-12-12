@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.head-titles {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.2em;
+}
+
+h1 {
+  margin: 1.3em auto;
+}
+
+.section {
+  min-height: 100vh;
+  padding-top: 70px;
+}
+
+
+/* ----------------- PORTFOLIO SECTION ---------------- */
+#portfolio-section {
+  background: #0051ff;
+
+}
+
+.portfolio-item {
+  opacity: 1;
+  transition: all 0.5s ease;
+  padding: 0;
+  background: white;
+  
+}
+
+.portfolio-img {
+  transition: all 0.5s ease;
+}
+
+.portfolio-title {
+  position: absolute;
+  left: 0;
+  bottom: 1.5em;
+
+  text-align: center;
+  font-size: 1.8em;
+  width: 100%;
+  background: #505050;
+  color: white;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.portfolio-item:hover {
+  cursor: pointer;
+}
+
+.portfolio-item:hover
+.portfolio-img {
+  opacity: 0.5;
+}
+
+.portfolio-item:hover 
+.portfolio-title {
+  opacity: 1;
+}
+
+.modal {
+  color: #505050;
+}
+
+
+/* --------------- Contact Page ---------------- */
+#contact-section {
+  background: #fff6da;;
+}
+.contact-link {
+  color: inherit;
+}
+
+/* .icon-sub {
+  font-size: 1.5em;
+} */
+
+/* ---------------- Footer --------------------- */
+footer {
+  color: #8f9296;
+  padding: 45px;
+}
