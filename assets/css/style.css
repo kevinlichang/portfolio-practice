@@ -72,6 +72,13 @@ h1 {
   color: #505050;
 }
 
+@media (min-width: 768px) {
+  .modal-xl {
+    width: 90%;
+   max-width:1400px;
+  }
+}
+
 
 /* --------------- Contact Page ---------------- */
 #contact-section {
