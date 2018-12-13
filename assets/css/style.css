@@ -72,6 +72,11 @@ h1 {
   color: #505050;
 }
 
+.modal-tech {
+  position: absolute;
+  bottom: 0;
+}
+
 @media (min-width: 768px) {
   .modal-xl {
     width: 90%;
