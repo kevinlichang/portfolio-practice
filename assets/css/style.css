@@ -72,10 +72,11 @@ h1 {
   color: #505050;
 }
 
-.modal-tech {
+/* .modal-tech {
   position: absolute;
   bottom: 0;
-}
+  
+} */
 
 @media (min-width: 768px) {
   .modal-xl {
@@ -87,7 +88,7 @@ h1 {
 
 /* --------------- Contact Page ---------------- */
 #contact-section {
-  background: #fff6da;;
+  background: #ffe1ba;;
 }
 .contact-link {
   color: inherit;
