@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 html {
@@ -21,13 +21,15 @@ h1 {
   padding-top: 70px;
 }
 
-/* ----------------- HOME SECTION --------------------- */
-#x {
+.extend-height-container {
   min-height: 80vh;
 }
+
+/* ----------------- HOME SECTION --------------------- */
 .home-text {
-  text-shadow: 2px 2px 2px #1d1d1d;
+  text-shadow: 1px 2px 2px #1d1d1d;
 }
+
 #home-section {
 	width: 100wh;
 	height: 90vh;
@@ -73,6 +75,10 @@ h1 {
 	100% {
 		background-position: 0% 50%
 	}
+}
+
+#home-down-chevron {
+
 }
 
 /* ----------------- ABOUT SECTION ---------------- */
