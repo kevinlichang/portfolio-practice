@@ -88,10 +88,13 @@ h1 {
 /* ----------------- ABOUT SECTION ---------------- */
 #about-section {
   background-image: linear-gradient(90deg, #797979, white, #797979);
-  background-size: 170%;
+  background-size: 200%;
   background-position: center;
 }
 
+#about-text {
+  line-height: 2;
+}
 
 /* ----------------- PORTFOLIO SECTION ---------------- */
 #portfolio-section {
