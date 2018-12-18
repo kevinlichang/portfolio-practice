@@ -26,19 +26,23 @@ h1 {
 }
 
 /* ----------------- HOME SECTION --------------------- */
+#hello {
+  font-size: 5em;
+}
 .home-text {
-  text-shadow: 1px 2px 2px #1d1d1d;
+  font-family: 'Playfair Display', serif;
+  text-shadow: 1px 1px 5px #3b3b3b;
 }
 
 #home-section {
 	width: 100wh;
 	height: 90vh;
 	color: #fff;
-  background: linear-gradient(70deg, #4cc41d, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+  background: linear-gradient(70deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
 	background-size: 400% 100%;
-	-webkit-animation: Gradient 15s ease infinite;
-	-moz-animation: Gradient 15s ease infinite;
-	animation: Gradient 15s ease infinite;
+	-webkit-animation: Gradient 20s ease infinite;
+	-moz-animation: Gradient 20s ease infinite;
+	animation: Gradient 20s ease infinite;
 }
 
 @-webkit-keyframes Gradient {
@@ -83,7 +87,9 @@ h1 {
 
 /* ----------------- ABOUT SECTION ---------------- */
 #about-section {
-  background-image: linear-gradient(90deg, #777777, white, #777777);
+  background-image: linear-gradient(90deg, #797979, white, #797979);
+  background-size: 170%;
+  background-position: center;
 }
 
 
