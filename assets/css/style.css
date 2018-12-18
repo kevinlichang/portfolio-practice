@@ -86,7 +86,7 @@ h1 {
 }
 
 /* ----------------- ABOUT SECTION ---------------- */
-#about-section {
+#about-me {
   background-image: linear-gradient(90deg, #797979, white, #797979);
   background-size: 200%;
   background-position: center;
@@ -97,7 +97,7 @@ h1 {
 }
 
 /* ----------------- PORTFOLIO SECTION ---------------- */
-#portfolio-section {
+#portfolio {
   background: #0051ff;
 
 }
@@ -161,7 +161,7 @@ h1 {
 
 
 /* --------------- Contact Page ---------------- */
-#contact-section {
+#contact {
   background: #ffebd0;;
 }
 .contact-link {
