@@ -139,7 +139,7 @@ h1 {
   opacity: 1;
 }
 
-.modal {
+.modal, .fa-chevron-left, .fa-chevron-right {
   color: #505050;
 }
 
