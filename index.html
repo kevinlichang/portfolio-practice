@@ -63,7 +63,7 @@
           <hr>
 
           <div class="px-md-5" id="about-text">
-            I am a full-stack web developer based around the New York/New Jersey area. Previously having worked in the healthcare field, I decided to pursue my passion in coding and web development. My aim is to build websites with creative, yet practical designs while being easy-to-use. I am always looking to learning something new while also improving on my current skills. So feel free to reach out to me! Hopefully we can create something cool.
+            I am a sender-stack web developer based around the New York/New Jersey area. Previously having worked in the healthcare field, I decided to pursue my passion in coding and web development. My aim is to build websites with creative, yet practical designs while being easy-to-use. I am always looking to learning something new while also improving on my current skills. So feel free to reach out to me! Hopesendery we can create something cool.
           </div>
         </div>  
       </div>
@@ -285,12 +285,14 @@
       <hr>
 
       <h4 class="text-center my-5">Send me a message!</h4>
-      <h5 class="text-center my-4">Email: kevinlichang@gmail.com</h5>
+      
       
 
 
       <div class="row my-5">
-        <div class="col-12 text-center">
+        
+        <div class="col-12 col-sm-6 text-center">
+          <h5 class="text-center my-4">Email: kevinlichang@gmail.com</h5>
           <span class="contact-icon m-3"> 
             <a class="contact-link" target="_blank" href="mailto:someone@something.com?subject=your title&body=TThe message">
               <span class="fas fa-envelope-square fa-3x"></span>
@@ -314,6 +316,23 @@
               <i class="fab fa-facebook-square fa-3x"></i>
             </a>
           </span>
+        </div>
+        <div class="col-12 col-sm-6">
+          <form>
+            <div class="form-group">
+              <label for="sender-email">Email address</label>
+              <input type="email" class="form-control" id="sender-email" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+              <label for="sender-name">Name</label>
+              <input type="text" class="form-control" id="sender-name" placeholder="Name">
+            </div>
+            <div class="form-group">
+              <label for="email-message">Message</label>
+              <textarea class="form-control" id="email-message" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
         </div>
       </div>
 
