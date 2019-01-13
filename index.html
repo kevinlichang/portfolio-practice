@@ -317,17 +317,18 @@
         <div class="col-12 col-sm-6">
           <form id="gform" method="post" name="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSepLXwvWgTofCmQN2DmkMCH1DzUJ0Fc4SL5k575WMOSWDa9WA/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
 
+            https://docs.google.com/forms/d/e/1FAIpQLSepLXwvWgTofCmQN2DmkMCH1DzUJ0Fc4SL5k575WMOSWDa9WA/viewform?usp=pp_url&entry.96182269=name+name+&entry.112865494=email+email&entry.834034756=test+test
               
             <div class="form-group">
-              <label for="sender-name">Name *</label>
+              <label for="entry.96182269">Name *</label>
               <input type="text" class="form-control" id="entry.96182269" name="entry.96182269" placeholder="Name" required>
             </div>            
             <div class="form-group">
-              <label for="sender-email">Email address *</label>
-              <input type="email" class="form-control" id="entry.11286549" name="entry.11286549" placeholder="Enter email" required>
+              <label for="entry.112865494">Email address *</label>
+              <input type="email" class="form-control" id="entry.112865494" name="entry.112865494" placeholder="Enter email" required>
             </div>
             <div class="form-group">
-              <label for="email-message">Message</label>
+              <label for="entry.834034756">Message</label>
               <textarea class="form-control" id="entry.834034756" rows="3" name="entry.834034756"></textarea>
             </div>
             <input type="submit" class="btn btn-primary" value="Submit" name="submit">
@@ -349,7 +350,6 @@
   <script type="text/javascript">var submitted=false;</script>
   <script type="text/javascript">
   $('#gform').on('submit', function(e) {
-    $('#gform *').fadeOut(2000);
     $('#gform').prepend('Your submission has been processed...');
     });
   </script>
