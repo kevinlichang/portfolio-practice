@@ -93,6 +93,10 @@ h1 {
   line-height: 2;
 }
 
+#headshot {
+  width: 380px;
+  border-radius: 50%;
+}
 /* ----------------- PORTFOLIO SECTION ---------------- */
 #portfolio {
   background: #0051ff;
