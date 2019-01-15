@@ -164,8 +164,9 @@ h1 {
 /* --------------- Contact Page ---------------- */
 #contact {
   /* background: #ffebd0; */
-  background-image: url("../images/streets-full.png");
+  background-image: url("../images/streets2.png");
   background-position: center;
+  padding-bottom: 70px;
 }
 .contact-link {
   color: inherit;
